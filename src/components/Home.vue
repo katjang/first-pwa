@@ -45,7 +45,6 @@ h1 {
         this.projects = json['projects'];
         localforage.setItem('projects', this.projects);
       }).catch(error => {
-        console.log('not getting projects from network');
         localforage.getItem('projects', (err, value) => {
           this.projects = value;
         })
