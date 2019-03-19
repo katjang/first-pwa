@@ -1,8 +1,8 @@
-var CACHE_NAME = 'cache-v1';
+var CACHE_NAME = 'cache-v11';
 var urlsToCache = [
-    '/',
-    '/main.js',
+	'/main.js',
     '/index.html',
+	'/style.css',
     '/192.png',
     '/512.png'
 ];

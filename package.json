@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "localforage": "^1.7.3",
-    "vue": "^2.6.9"
+    "vue": "^2.6.9",
+    "vue-router": "^3.0.2"
   }
 }
